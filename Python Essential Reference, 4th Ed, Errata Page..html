@@ -1,0 +1,3053 @@
+
+<!-- saved from url=(0033)http://www.dabeaz.com/errata.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="ROBOTS" content="NOARCHIVE">
+<title>Python Essential Reference, 4th Ed, Errata Page.</title>
+<style type="text/css">
+a {text-decoration: none; }
+a.nav {color: #0000ff; }
+h1 { font-family: verdana; font-size: 10pt;}
+p { font-family: verdana; font-size: 10pt;}
+li { font-family: verdana; font-size: 10pt;}
+em { font-family: verdana; font-size: 10pt;}
+div.photo { float: right; padding: 5; }
+td { font-family: verdana; font-size: 9pt;}
+td.nav { font-family: verdana; font-size: 9pt; }
+td.border { font-family: verdana; border-style: solid; border-width: 1px; border-color: black; }
+td.bcont { font-family: verdana; border-style: solid solid solid none; border-width: 1px; border-color: black; }
+td.tiny { font-family: verdana; font-size: 4pt; padding: 0; }
+
+#Python Essential Reference, 4th Ed, Errata Page. {color: black; font-weight: bold; text-decoration: none; }
+
+</style>
+
+<link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://nppllibpnmahfaklnpggkibhkapjkeob/toolbar/styles/placeholder.css" type="text/css"><script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script><script type="text/javascript" id="waxCS">var WAX = function () { var _arrInputs; return { getElement: function (i) { return _arrInputs[i]; }, setElement: function(i){ _arrInputs=i; } } }(); function waxGetElement(i) { return WAX.getElement(i); } function coSetPageData(t, d){ if('wax'==t) { WAX.setElement(d);} }</script><script type="text/javascript" id="waxCS">var WAX = function () { var _arrInputs; return { getElement: function (i) { return _arrInputs[i]; }, setElement: function(i){ _arrInputs=i; } } }(); function waxGetElement(i) { return WAX.getElement(i); } function coSetPageData(t, d){ if('wax'==t) { WAX.setElement(d);} }</script></head>
+<body link="#0000FF" vlink="#0000FF" text="#000000" bgcolor="#ffffff" style="padding-top: 31px !important;">
+<font face="verdana">
+<center>
+<!--
+  <h1>DABEAZ LLC</h1> -->
+
+  <table width="720" border="0">
+    <tbody><tr>
+      <td valign="top">
+	<table width="350" cellspacing="0" cellpadding="0">
+	  <!--  ABOUT -->
+	  <tbody><tr>
+	    <td width="115"></td>
+	    <td width="115">
+		<table width="115" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td align="left" class="tiny">7</td>
+		    <td align="right" class="tiny">0</td>
+		  </tr>
+		</tbody></table>
+	    </td>
+	    <td width="20"></td>
+	    <td width="95"></td>
+	  </tr>
+	  <tr>
+	      <td width="115"></td>
+	      <td class="border" width="115"><center>A</center></td>
+	      <td width="20"></td>
+	      <td width="95"><a href="http://www.dabeaz.com/about.html">ABOUT</a></td>
+	  </tr>
+
+	  <!-- TEACHING -->
+	  <tr>
+	    <td width="115">
+		<table width="115" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td align="left" class="tiny">15</td>
+		  </tr>
+		</tbody></table>
+	    </td>
+	    <td width="115">
+		<table width="115" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td align="left" class="tiny">7</td>
+		    <td align="right" class="tiny">0</td>
+		  </tr>
+		</tbody></table>
+	    </td>
+	    <td width="20"></td>
+	    <td width="95"></td>
+	  </tr>
+	  <tr>
+	      <td class="border" width="115" bgcolor="#ffffff"><center><font color="#0000ff"><b><a href="http://www.dabeaz.com/index.html" style="text-decoration: none; color: blue;">DAVE BEAZLEY</a></b></font></center></td>
+	      <td class="border" width="115"><center>T</center></td>
+	      <td width="20"></td>
+	      <td width="95"><a href="http://www.dabeaz.com/teaching.html">TEACHING</a></td>
+	  </tr>
+
+
+	  <!--  CONSULTING -->
+	  <tr>
+	    <td width="115"></td>
+	    <td width="115">
+		<table width="115" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td align="left" class="tiny">7</td>
+		    <td align="right" class="tiny">0</td>
+		  </tr>
+		</tbody></table>
+	    </td>
+	    <td width="20"></td>
+	    <td width="95"></td>
+	  </tr>
+	  <tr>
+	      <td width="115"></td>
+	      <td class="border" width="115"><center>C</center></td>
+	      <td width="20"></td>
+	      <td width="95"><a href="http://www.dabeaz.com/consulting.html">CONSULTING</a></td>
+	  </tr>
+
+	  <!--  SOFTWARE -->
+	  <tr>
+	    <td width="115"></td>
+	    <td width="115">
+		<table width="115" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td align="left" class="tiny">7</td>
+		    <td align="right" class="tiny">0</td>
+		  </tr>
+		</tbody></table>
+	    </td>
+	    <td width="20"></td>
+	    <td width="95"></td>
+	  </tr>
+	  <tr>
+	      <td width="115"></td>
+	      <td class="border" width="115"><center>S</center></td>
+	      <td width="20"></td>
+	      <td width="95"><a href="http://www.dabeaz.com/software.html">SOFTWARE</a></td>
+	  </tr>
+
+	  <!--  WRITING -->
+	  <!--
+	  <tr>
+	    <td width=115></td>
+	    <td width=115>
+		<table width=115 cellspacing=0 cellpadding=0>
+		  <tr>
+		    <td align="left" class="tiny">7</td>
+		    <td align="right" class="tiny">0</td>
+		  </tr>
+		</table>
+	    </td>
+	    <td width=20></td>
+	    <td width=95></td>
+	  </tr>
+	  <tr>
+	      <td width=115></td>
+	      <td class="border" width=115><center>W</center></td>
+	      <td width=20></td>
+	      <td width=95><a href="writing.html">WRITING</a></td>
+	  </tr>
+	  -->
+	  <!--  BLOG -->
+	  <tr>
+	    <td width="115"></td>
+	    <td width="115">
+		<table width="115" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td align="left" class="tiny">7</td>
+		    <td align="right" class="tiny">0</td>
+		  </tr>
+		</tbody></table>
+	    </td>
+	    <td width="20"></td>
+	    <td width="95"></td>
+	  </tr>
+	  <tr>
+	      <td width="115"></td>
+	      <td class="border" width="115"><center>B</center></td>
+	      <td width="20"></td>
+	      <td width="95"><a href="http://www.dabeaz.com/blog.html">BLOG</a></td>
+	  </tr>
+	</tbody></table>
+      </td>
+      <td valign="top">
+	<table width="350" cellspacing="0" cellpadding="0">
+	  <tbody><tr>
+	    <td width="115">
+		<table width="115" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td align="left" class="tiny">7</td>
+		    <td align="right" class="tiny">0</td>
+		  </tr>
+		</tbody></table>
+	    </td>
+	    <td width="20"></td>
+	    <td></td>
+	  </tr>
+	  <tr>
+	    <td width="120">
+	      <table width="120" cellspacing="0" cellpadding="0">
+		<tbody><tr>
+		  <td width="15" class="border" align="center">-</td>
+		  <td width="15" class="bcont" align="center">-</td>
+		  <td width="15" class="bcont" align="center">-</td>
+		  <td width="15" class="bcont" align="center">E</td>
+		  <td width="15" class="bcont" align="center">C</td>
+		  <td width="15" class="bcont" align="center">P</td>
+		  <td width="15" class="bcont" align="center">T</td>
+		  <td width="15" class="bcont" align="center">O</td>
+		</tr>
+	      </tbody></table>
+	    </td>
+	    <td width="20"></td>
+	    <td align="center"><b>STATUS REGISTER</b></td>
+	  </tr>
+	</tbody></table>
+	<table height="10"><tbody><tr><td></td></tr></tbody></table>
+	<table width="350" cellspacing="0">
+	  <tbody><tr>
+	    <td width="40" align="right">E</td><td>:<a href="http://www.dabeaz.com/per.html">Python Essential Reference, 4th Edition</a></td>
+	  </tr>
+	  <tr>
+	    <td align="right">C</td><td>:<a href="http://www.dabeaz.com/cookbook.html">Python Cookbook, 3rd Edition</a></td>
+	  </tr>
+	  <tr>
+	    <td align="right">P</td><td>:<a href="http://www.dabeaz.com/chicago/index.html">Chicago-area Python Classes</a></td>
+	  </tr>
+	  <tr>
+	    <td align="right">T</td><td>:<a href="http://www.dabeaz.com/talks.html">Talks &amp; Tutorials</a></td>
+	  </tr>
+	  <tr>
+	    <td align="right">O</td><td>:<a href="http://www.dabeaz.com/office.html">Office</a></td>
+	  </tr>
+	</tbody></table>
+      </td>
+    </tr>
+  </tbody></table>
+  <table width="720">
+    <tbody><tr>
+      <td>
+	<hr>
+	
+ <h1>[ PYTHON ESSENTIAL REFERENCE - ERRATA]</h1>
+ 
+ <p>
+ <img src="./Python Essential Reference, 4th Ed, Errata Page._files/PER4.png">
+ </p>
+ 
+ <p>
+ <a href="http://www.amazon.com/Python-Essential-Reference-Developers-Library/dp/0672329786">
+ Python Essential Reference, 4th Edition</a> [Amazon]<br>
+ Addison-Wesley Professional (July 19, 2009)<br>
+ ISBN 0672329786;  717 pages<br>
+ </p>
+ 
+ <p><b>Official Errata Page</b></p>
+ 
+ <p>This page describes all of the typos and corrections for the Python
+ Essential Reference, 4th Edition.  If you find errors not listed here,
+ please let me know so that I can make future editions better!</p>
+ 
+ <p>
+ Special thanks to the following contributors for their "eagle eyes":
+ </p>
+ 
+ <ul>
+ <li>Aron Atkins</li>
+ <li>Randolph Bentson</li>
+ <li>Jeff Johnson</li>
+ <li>Nicholas Johnston</li>
+ <li>Andrew Montalenti</li>
+ <li>Art Rothstein</li>
+ <li>Andrew Savige</li>
+ <li>Hynek Schlawack</li>
+ <li>David Sharnoff</li>
+ <li>Mark Summerfield</li>
+ </ul>
+ 
+ <p>
+ Locations are specified by page and paragraph numbers (counting from the top of the page). Errors
+ are denoted in <font color="#ff0000">red</font>.  Additions or corrections are denoted in 
+ <font color="#0000ff">blue</font>.
+ </p>
+ 
+ <table border="1" cellspacing="0">
+ <tbody><tr>
+ <th width="120" align="left">Location</th>
+ <th width="680" align="left">Description</th>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 7, ¶1
+ </p>
+ </td>
+ <td>
+ 
+ <p>
+ "On UNIX, EOF is Ctrl-D; on Windows, it's Ctrl-Z."
+ </p>
+ 
+ <p>Should be</p>
+ 
+ <p>
+ "On UNIX, EOF is Ctrl-D; on Windows, it's Ctrl-Z <font color="#0000ff">(or F6).</font>"
+ </p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 9, Note midpage.
+ </p>
+ </td>
+ <td>
+ <p>
+ "... If you do this, the normal indentation rules don't apply to the
+ next line, so you are free to format the continued lines as you wish."
+ </p>
+ 
+ <p>Should be</p>
+ 
+ <p>
+ "... If you do this, the normal indentation rules don't apply to the
+ next line, so you are free to format the continued lines as you wish.
+ <font color="#0000ff">A backslash is never needed for code enclosed in <tt>( )</tt>, <tt>[
+ ]</tt>, or <tt>{ }</tt>.</font>"</p>
+ <p></p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 13, Listing 1.2
+ </p>
+ </td>
+ <td>
+ <p>
+ Missing semicolon in code example.</p>
+ 
+ <p>
+ </p><pre> import sys                   # Load the sys module
+ if len(sys.argv) != 2        # Check number of command line arguments
+    ...</pre>
+ <p></p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre> import sys                   # Load the sys module
+ if len(sys.argv) != 2<font color="#0000ff">:</font>       # Check number of command line arguments
+    ...
+ </pre>
+ <p></p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 21, ¶1 code</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Inconsistent indentation in code example at top of page.</p>
+ 
+ <p>
+ </p><pre> ...
+ # Feed an active log file into all matchers.  Note for this to work,
+    # a web server must be actively writing data to the log
+ </pre>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre> ...
+ # Feed an active log file into all matchers.  Note for this to work,
+ # a web server must be actively writing data to the log
+ </pre>
+ <p></p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 27, ¶1</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ "To specify an integer using octal, hexadecimal, or binary notation, precede the value
+ with <font color="#ff0000"><tt>0</tt></font>, <tt>0x</tt>, or <tt>0b</tt> respectively (for example, <font color="#ff0000"><tt>0644</tt></font>, <tt>0x100fea8</tt>, or <tt>0b11101010</tt>)."
+ </p>
+ 
+ <p>
+ Should be
+ </p>
+ <p>
+ "To specify an integer using octal, hexadecimal, or binary notation, precede the value
+ with <font color="#0000ff"><tt>0o</tt></font>, <tt>0x</tt>, or <tt>0b</tt> respectively (for example, <font color="#0000ff"><tt>0o644</tt></font>, <tt>0x100fea8</tt>, or <tt>0b11101010</tt>)."
+ </p>
+ 
+ <p>
+ Note: <tt>0o</tt> is the number zero followed by a lowercase letter O.</p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 36, code at bottom</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Missing comma and inconsistent use of quotation marks in dictionary.
+ 
+ </p><p>
+ </p><pre> items = {
+     'number' : 42
+     'text' : "Hello World"
+ }</pre>
+ <p></p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre> items = {
+     'number' : 42<font color="#0000ff">,</font>
+     'text' : 'Hello World'
+ }</pre>
+ 
+ <p></p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 40, ¶2</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Clarification of sorting requirements.</p>
+ 
+ <p>
+ "The <tt>s.sort()</tt> method sorts the elements of a list and
+ optionally accepts a key function and reverse flag, both of which must
+ be specified as keyword arguments."
+ </p>
+ 
+ <p>Should be</p>
+ 
+ <p>
+ "The <tt>s.sort()</tt> method sorts the elements of a list <font color="#0000ff">(all of
+ which should be of a uniform type)</font> and optionally accepts a key function
+ and reverse flag, both of which must be specified as keyword
+ arguments."
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 41, table 3.4</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Clarification of <tt>sort()</tt> description.</p>
+ 
+ <p>"Sorts items of <tt><em>s</em></tt> in place.
+ <tt><em>key</em></tt> is a key function.  <tt><em>reverse</em></tt> is
+ a flag that sorts the list in reverse order.  <tt><em>key</em></tt>
+ and <tt><em>reverse</em></tt> should always be specified as keyword
+ arguments."</p>
+ 
+ <p>Should be</p>
+ 
+ <p>
+ </p><p>"Sorts items of <tt><em>s</em></tt> in place.
+ <tt><em>key</em></tt> is a key function.  <tt><em>reverse</em></tt> is
+ a flag that sorts the list in reverse order.  <tt><em>key</em></tt>
+ and <tt><em>reverse</em></tt> should always be specified as keyword
+ arguments.  <font color="#0000ff">The items in <tt><em>s</em></tt> should all be of a
+ uniform type.  </font></p><font color="#0000ff">
+ </font></td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 44, table 3.5</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Clarification of <tt>zfill()</tt> description.</p>
+ 
+ <p>"Pads a string with <font color="#ff0000">zeros</font> on the left up to the specified <tt><em>width</em></tt>.</p>
+ 
+ <p>Should be</p>
+ 
+ <p>"Pads a string with <font color="#0000ff">the <tt>'0'</tt> digit character</font> on the left up to the specified <tt><em>width</em></tt>.</p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 45, table 3.6</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Clarification of <tt>items()</tt> description.</p>
+ 
+ <p>"Returns a sequence of <tt>(<em>key</em>, <em>value</em>)</tt> pairs."</p>
+ 
+ <p>Should be</p>
+ 
+ <p>"Returns a sequence of <font color="#0000ff">all</font> <tt>(<em>key</em>, <em>value</em>)</tt> pairs <font color="#0000ff">in <tt><em>m</em></tt></font>."</p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 45, table 3.6</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Clarification of <tt>keys()</tt> description.</p>
+ 
+ <p>"Returns a sequence of key values."</p>
+ 
+ <p>Should be</p>
+ 
+ <p>"Returns a sequence of <font color="#0000ff">all</font> key values <font color="#0000ff">in <tt><em>m</em></tt></font>."</p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 49, ¶3</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ "In the example, we have passed f, <font color="#ff000">a</font> an instance of Foo, ..."
+ </p>
+ 
+ <p>Should be</p>
+ 
+ <p>
+ "In the example, we have passed f, an instance of Foo, ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 55, code midpage</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ "is" should be "if".
+ 
+ </p><p>
+ </p><pre> x = A.__new__(A,<em>args</em>)
+ <font color="#ff0000">is</font> isinstance(x,A): x.__init__(<em>args</em>)</pre>
+ <p></p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre> x = A.__new__(A,<em>args</em>)
+ <font color="#0000ff">if</font> isinstance(x,A): x.__init__(<em>args</em>)</pre>
+ <p></p>
+ <p></p>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 58, ¶1</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ "Keep in mind that <font color="#ff0000">descriptions</font> are optional and rarely need to be defined."</p>
+ 
+ <p>Should be</p>
+ 
+ <p>
+ "Keep in mind that <font color="#0000ff">descriptors</font> are optional and <font color="#0000ff">are rarely defined directly</font>."</p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 58, Table 3.17</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Clarify the description of <tt>__get__()</tt>.
+ </p>
+ 
+ <p>
+ "Returns an attribute value or raises <tt>AttributeError</tt>."
+ </p>
+ 
+ <p>Should be</p>
+ 
+ <p>
+ "Returns the value of an attribute on <tt><em>instance</em></tt>. If <tt><em>instance</em></tt> is <tt>None</tt>, <tt><em>self</em></tt> should be returned."
+ </p></td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 59, ¶3</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Clarification of extended slicing</p>
+ 
+ <p>
+ "For example, the following variations of extended slicing are all supported and might be useful for working with multidimensional data structures such as matrices and arrays:"
+ 
+ </p><p>Should be</p>
+ 
+ <p>
+ "For example, the following variations of extended slicing are all supported <font color="#0000ff">by Python's syntax and are sometimes used to manipulate multidimensional data structures such as
+ matrices and arrays in third-party extensions such as NumPy</font>:"</p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 60, code at top of page</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Extra parens in code comment</p>
+ 
+ <p>
+ </p><pre> x = _iter.next() <font color="#ff0000">(</font>#_iter.__next__() in Python 3<font color="#ff0000">)</font></pre>
+ <p></p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre> x = _iter.next() # _iter.__next__() in Python 3</pre>
+ <p></p>
+ <p></p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 67, table midpage</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ In the "Operations on Sequences" section, there is a missing comma after "v2" and the wrong font used on the "s" in this fragment:</p>
+ 
+ <p>
+ </p><pre> <em>v1</em>, <em>v2</em>... , <em>vn</em> = s</pre>
+ <p></p>
+ 
+ <p>Should be (note italics on "s"):</p>
+ 
+ <p>
+ </p><pre> <em>v1</em>, <em>v2</em>, ... , <em>vn</em> = <em>s</em></pre>
+ <p></p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 68, code at bottom</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Wrong result in code example:</p>
+ 
+ <p>
+ </p><pre> ...
+ d = a[0:5:2]         # d = [0,2]
+ ...</pre><p></p>
+ 
+ <p>Should be:</p>
+ 
+ <p>
+ </p><pre> ...
+ d = a[0:5:2]         # d = [0,2<font color="#0000ff">,4</font>]
+ ...</pre><p></p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 69, code in bottom half page</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Use of a better example that illustrates replacing the entire contents of a list:</p>
+ 
+ <p>
+ </p><pre> ...
+ a[2:] = [0]      # a = [1,6,0]
+ ...</pre><p></p>
+ 
+ <p>Should be replaced with:</p>
+ 
+ <p>
+ </p><pre> ...
+ a[:] = [7,8]     # a = [7,8].  id(a) remains the same
+ ...
+ </pre>
+ <p></p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 72, 2nd code example</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ More consistent use of string formatting:</p>
+ 
+ <p>
+ </p><pre> name = "Elwood"
+ age = 41
+ r = "%(name)s is %(age)<font color="#ff0000">s</font> years old" % vars()</pre>
+ <p></p>
+ 
+ <p>Should be:
+ 
+ </p><p>
+ </p><pre> name = "Elwood"
+ age = 41
+ r = "%(name)s is %(age)<font color="#0000ff">d</font> years old" % vars()</pre>
+ <p></p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 72, ¶3</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Missing "*" on kwargs:
+ </p>
+ 
+ <p>
+ "A more advanced form of string formatting is available using the <tt><em>s</em>.format(*<em>args</em>,*<em>kwargs</em>)</tt> method on strings."
+ </p>
+ 
+ <p>Should be:
+ 
+ </p><p>
+ "A more advanced form of string formatting is available using the <tt><em>s</em>.format(*<em>args</em>,**<em>kwargs</em>)</tt> method on strings."
+ </p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 75, ¶5</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Clarification on augmented assignment semantics:</p>
+ <p></p>
+ 
+ <p>
+ "Augmented assignment doesn't violate mutability of perform in-place modifications of the objects.  Therefore, writing <tt>x += y</tt> creates an entirely
+ new object <tt>x</tt> with the value <tt>x + y.</tt></p>
+ <p></p>
+ 
+ <p>Should be:
+ 
+ </p><p>
+ "Augmented assignment may or may not perform in-place modification of an object depending on its implementation.  There, writing <tt><em>x</em> + <em>y</em></tt>
+ might modify <tt><em>x</em></tt> in-place or create an entirely new object with the value <tt><em>x + y</em></tt>.</p>
+ <p></p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 76, code example midpage</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Code cleanup
+ 
+ </p><p>
+ </p><pre> from functools import partial
+ f = partial(foo,1,2)  # Supply values to x and y arguments of foo
+ f(3)         # Calls foo(1,2,3), result is 6</pre>
+ <p></p>
+ 
+ <p>Should be:
+ 
+ </p><p>
+ </p><pre> from functools import partial
+ f = partial(foo,1,2)  # Supply values to x and y arguments of foo
+ <font color="#0000ff">result = </font>f(3)         # Calls foo(1,2,3), result is 6</pre>
+ <p></p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 78, Table 4.3, bottom of page</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Cleanup of comparisons:</p>
+ 
+ <p>
+ There is an extra blank line that should be eliminated and a semicolon in place of comma:
+ </p><p>
+ </p><pre> x &lt; y, x &lt;= y,
+ 
+ x &gt; y; x &gt;= y,
+ x == y, x != y
+ </pre><p></p>
+ 
+ <p>
+ Should be (pay careful attention to punctuation including trailing commas)</p>
+ <p></p>
+ 
+ <pre> x &lt; y, x &lt;= y,
+ x &gt; y, x &gt;= y,
+ x == y, x != y,
+ </pre><p></p>
+ 
+ <p>
+ Also, change this description:
+ 
+ </p><p>
+ "Comparison, identity, and sequence membership tests"</p>
+ 
+ <p>To the following:</p>
+ 
+ <p>
+ "<font color="#0000ff">Value</font> comparison, <font color="#000ff">object</font> identity, and sequence membership tests"</p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 79, Table 4.3, top of page</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Missing punctuation:</p>
+ 
+ <p>
+ </p><pre> x is y, x is not y
+ x in s, x not in s
+ </pre><p></p>
+ 
+ <p>
+ Should be (pay careful attention to trailing comma on first line):
+ </p>
+ 
+ <pre> x is y, x is not y,
+ x in s, x not in s
+ </pre><p></p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 79, Code Example</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Bad spacing in example:</p>
+ 
+ <p>
+ </p><pre> minvalue = a if a &lt;=b else b</pre>
+ <p></p>
+ 
+ <p>
+ Should be (pay careful attention to the extra space before b):
+ </p>
+ 
+ <pre> minvalue = a if a &lt;= b else b</pre><p></p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 85, Code example at bottom</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Add a code comment with clarification:</p>
+ 
+ <p>
+ </p><pre> try:
+    do something
+ except Exception as e:
+    error_log.write('An error occurred : %s\n' % e)</pre><p></p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre> try:
+    do something
+ except Exception as e:
+ <font color="#0000ff">   # error_log is previously opened file-like object</font>
+    error_log.write('An error occurred : %s\n' % e)
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 87, Table 5.1</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Bad indentation and missing entries.</p>
+ 
+ <ol <li=""><tt>UnboundLocalError</tt> should be indented under <tt>NameError</tt> like this:
+ 
+ <pre> NameError
+   UnboundLocalError
+ </pre>
+ 
+ 
+ <li><tt>NotImplementedError</tt> should be indented under <tt>RuntimeError</tt> like this:
+ 
+ <pre> RuntimeError
+   NotImplementedError
+ </pre>
+ </li>
+ <li><tt>OverflowError</tt> is missing from the table.   Should appear after <tt>FloatingPointError</tt>.
+ 
+ <pre> ArithmeticError          Base for arithmetic exceptions
+   FloatingPointError     Failure of a floating-point operation
+ <font color="#0000ff">  OverflowError          Integer value too large</font>
+   ZeroDivisionError      Division or modulus operation with 0
+ </pre>
+ </li>
+ 
+ <li><tt>WindowsError</tt> is missing from the table.   Should appear indented under <tt>OSError</tt>.
+ 
+ <pre> EnvironmentError         Errors that occur externally to Python
+   IOError                I/O or file-related error
+   OSError                Operating system error
+ <font color="#0000ff">    WindowsError         Windows-specific error</font>
+ </pre>
+ </li>
+ </ol>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 90, Code example at top</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Use of a better variable name in __exit__() method:</p>
+ 
+ <p>
+ </p><pre> class ListTransaction(object):
+     ...
+     def __exit__(self,type,value,tb):
+         if type is None:
+             self.thelist[:] = self.workingcopy
+         return False
+ </pre>
+ <p>
+ Should be (replace "type" with "exctype"):
+ </p>
+ 
+ <pre> class ListTransaction(object):
+     ...
+     def __exit__(self,<font color="#0000ff">exctype</font>,value,tb):
+         if <font color="#0000ff">exctype</font> is None:
+             self.thelist[:] = self.workingcopy
+         return False
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 101, Code example midpage</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Missing underscores on <tt>__name__</tt> attribute:
+ 
+ </p><p>
+ </p><pre> def trace(func):
+     ...
+            debug_log.write("%s returned %s\n" % (func.__name, r))
+     ...
+ </pre>
+ <p>
+ Should be (note extra underscores):
+ </p>
+ 
+ <pre> def trace(func):
+     ...
+            debug_log.write("%s returned %s\n" % (func.__name<font color="#0000ff">__</font>, r))
+     ...
+ </pre>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 103, Code example at top</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Add clarifying comment to the return:
+ 
+ </p><p>
+ </p><pre> def countdown(n):
+     print("Counting down from %d" % n)
+     ...
+     return
+ </pre>
+ <p>
+ Should be:
+ </p>
+ 
+ <pre> def countdown(n):
+     print("Counting down from %d" % n)
+     ...
+     return    <font color="#0000ff"># Note: generators can only return None</font>
+ </pre>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 104, ¶2
+ </p>
+ </td>
+ <td>
+ <p>
+ "Moreover, if a program is currently iterating on generator, you should ..."
+ </p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ "Moreover, if a program is currently iterating on <font color="#0000ff">a</font> generator, you should ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 107, Code example at top</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Fix broken code example ("find" should be "find_files"):
+ 
+ </p><p>
+ </p><pre> wwwlogs = <font color="#ff0000">find</font>("www","access-log*")
+ ...
+ </pre>
+ <p>
+ Should be:
+ </p>
+ 
+ <pre> wwwlogs = <font color="#0000ff">find_files</font>("www","access-log*")
+ ...
+ </pre>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 109, Code example midpage</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Bad code comment ("f" should be "g"):
+ 
+ </p><p>
+ </p><pre> g = [math.sqrt(x*x+y*y)       # <font color="#ff0000">f</font> = [2.23606, 5.0, 7.81024]
+      for x,y in f]
+ </pre>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <pre> g = [math.sqrt(x*x+y*y)       # <font color="#0000ff">g</font> = [2.23606, 5.0, 7.81024]
+      for x,y in f]
+ </pre>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 113, ¶3
+ </p>
+ </td>
+ <td>
+ <p>
+ "It is common practice for the first statement of function to be..."
+ </p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ "It is common practice for the first statement of <font color="#0000ff">a</font> function to be..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 115, Code example at bottom</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Bad code comment ("Execute" should be "Evaluate"):
+ 
+ </p><p>
+ </p><pre> ...
+ c2 = compile(s2, '', 'eval')  # Compile into an expression
+ result = eval(c2)             # <font color="#ff0000">Execute</font> it
+ </pre>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <pre> ...
+ c2 = compile(s2, '', 'eval')  # Compile into an expression
+ result = eval(c2)             # <font color="#0000ff">Evaluate</font> it
+ </pre>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 122, Code example at top</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Extra underscores in comment:
+ 
+ </p><p>
+ </p><pre> ...
+ class Z(X,Y): pass    # TypeError.
+                       # Can't create consistent method resolution order<font color="#ff0000">__</font>
+ </pre>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre> ...
+ class Z(X,Y): pass    # TypeError.
+                       # Can't create consistent method resolution order
+ </pre>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 123, Code example midpage</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Missing module import.
+ 
+ </p><p>
+ </p><pre> class Date(object):
+     ...
+ </pre>
+ 
+ <p>
+ Should be (added line at beginning):
+ </p>
+ 
+ <p>
+ </p><pre> <font color="#0000ff">import time</font>
+ class Date(object):
+     ...
+ </pre>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 124, Code example midpage</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Bad attribute name (tm_month).
+ 
+ </p><p>
+ </p><pre> class Date(object):
+     ...
+     def now(cls):
+         t = time.localtime()
+         # Create an object of the appropriate type
+         return cls(t.tm_year, t.<font color="#ff0000">tm_month</font>, t.tm_day)
+ </pre>
+ 
+ <p>
+ Should be ("tm_month" changed to "tm_mon")
+ </p>
+ 
+ <p>
+ </p><pre> class Date(object):
+     ...
+     def now(cls):
+         t = time.localtime()
+         # Create an object of the appropriate type
+         return cls(t.tm_year, t.<font color="#0000ff">tm_mon</font>, t.tm_day)
+ </pre>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 125, Code example midpage</p>
+ <p></p>
+ </td>
+ <td>
+ <p>
+ Missing parenthesis.
+ 
+ </p><p>
+ </p><pre>     def spam(self, x):
+         print("%s,%s" % (self.name, x)
+ </pre>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre>     def spam(self, x):
+         print("%s,%s" % (self.name, x))
+ </pre>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 127, Code example at top</p>
+ </td>
+ <td>
+ <p>
+ Bad indentation and minor correction:
+ </p>
+ <p>
+ </p><pre> class TypedProperty(object):
+     def __init__(self,name,type,default=None):
+         self.name = "_" + name
+         self.type = type
+ <font color="#ff0000">self.default = default if default else type()</font>
+     def __get__(self,instance,cls):
+         <font color="#ff0000">return getattr(instance,self.name,self.default)</font>
+     ...
+ </pre>
+ 
+ <p>
+ Should be (note: there are two changed statements):
+ </p>
+ 
+ <p>
+ </p><pre> class TypedProperty(object):
+     def __init__(self,name,type,default=None):
+         self.name = "_" + name
+         self.type = type
+ <font color="#0000ff">        self.default = type() if default is None else default</font>
+     def __get__(self,instance,cls):
+         <font color="#0000ff">return getattr(instance,self.name,self.default) if instance else self</font>
+     ...
+ </pre>
+ 
+ <p>
+ These changes reflect the fact that the __get__() method of a descriptor should return the descriptor itself if the instance parameter is None.
+ This might occur if someone accesses a descriptor using the class instead of an instance.
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 129, Code example midpage</p>
+ </td>
+ <td>
+ <p>
+ Better comment:
+ </p>
+ <p>
+ </p><pre> u = Upperstr("hello")    # <font color="#ff0000">value is</font> "HELLO"
+ </pre>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ </p><pre> u = Upperstr("hello")    # <font color="#0000ff">u =</font> "HELLO"
+ </pre>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 132, ¶2
+ </p>
+ </td>
+ <td>
+ <p>
+ "For attribute lookup such as <tt>obj.<em>name</em></tt>, the special method <tt>obj.__<font color="#ff0000">getattrribute</font>__("<em>name</em>")</tt> is invoked:
+ </p>
+ <p>
+ Should be (fix mispelling of "getattribute)":
+ </p>
+ 
+ <p>
+ "For attribute lookup such as <tt>obj.<em>name</em></tt>, the special method <tt>obj.__<font color="#0000ff">getattribute</font>__("<em>name</em>")</tt> is invoked:
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 137, ¶5
+ </p>
+ </td>
+ <td>
+ <p>
+ "Although an abstract class <font color="#ff0000">can not</font> be instantiated ..."
+ </p>
+ <p>
+ Should be ("can not" changed to "cannot"):
+ </p>
+ 
+ <p>
+ "Although an abstract class <font color="#0000ff">cannot</font> be instantiated ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 139, code example at top
+ </p>
+ </td>
+ <td>
+ <p>
+ In this code example, add a small amount of space around the underscores in "__metaclass__" to make it 
+ clear that there are two leading/trailing underscores and to match the typography used elsewhere on the same page :</p>
+ 
+ <pre> class Foo:                   # In Python 3, use the syntax
+     __metaclass__ = type     # class Foo(metaclass=type)
+     ...
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 139, Code example near bottom</p>
+ </td>
+ <td>
+ <p>
+ A better argument name than "dict" should be used.
+ </p>
+ <p>
+ </p><pre> class DocMeta(type):
+     def __init__(self,name,bases,<font color="#ff0000">dict</font>):
+         for key, value in <font color="#ff0000">dict</font>.items():
+             # Skip special and private methods
+             if key.startswith("__"): continue
+             # Skip anything not callable
+             if not hasattr(value,"__call__"): continue
+             # Check for a doc-string
+             if not getattr(value,"__doc__"):
+                 raise TypeError("%s must have a docstring" % key)
+         type.__init__(self,name,bases,<font color="#ff0000">dict</font>)
+ </pre>
+ 
+ <p>
+ Should be (change all occurrences of "dict" to "attrs"):
+ </p>
+ 
+ <pre> class DocMeta(type):
+     def __init__(self,name,bases,<font color="#0000ff">attrs</font>):
+         for key, value in <font color="#0000ff">attrs</font>.items():
+             # Skip special and private methods
+             if key.startswith("__"): continue
+             # Skip anything not callable
+             if not hasattr(value,"__call__"): continue
+             # Check for a doc-string
+             if not getattr(value,"__doc__"):
+                 raise TypeError("%s must have a docstring" % key)
+         type.__init__(self,name,bases,<font color="#0000ff">attrs</font>)
+ </pre>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 140, Code example in bottom half</p>
+ </td>
+ <td>
+ <p>
+ A better argument name than "dict" should be used.
+ </p>
+ <p>
+ </p><pre> class TypedMeta(type):
+     def __new__(cls,name,bases,<font color="#ff0000">dict</font>):
+         slots = []
+         for key,value in <font color="#ff0000">dict</font>.items():
+             if isinstance(value,TypedProperty):
+                 value.name = "_" + key
+                 slots.append(value.name)
+         dict['__slots__'] = slots
+         return type.__new__(cls,name,bases,<font color="#ff0000">dict</font>)
+ </pre>
+ 
+ <p>
+ Should be (change all occurrences of "dict" to "attrs"):
+ </p>
+ 
+ <pre> class TypedMeta(type):
+     def __new__(cls,name,bases,<font color="#0000ff">attrs</font>):
+         slots = []
+         for key,value in <font color="#0000ff">attrs</font>.items():
+             if isinstance(value,TypedProperty):
+                 value.name = "_" + key
+                 slots.append(value.name)
+         dict['__slots__'] = slots
+         return type.__new__(cls,name,bases,<font color="#0000ff">attrs</font>)
+ </pre>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 147, ¶6
+ </p>
+ </td>
+ <td>
+ <p>
+ "First, it is only possible import .py, .pyw, .pyc, and .pyo files from an archive."
+ </p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ "First, the only file types that can be imported from an archive are <tt>.py</tt>, <tt>.pyc</tt>, <tt>.pyo</tt>, and <tt>.pyw</tt>."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 150, ¶6 (near bottom)
+ </p>
+ </td>
+ <td>
+ <p>
+ "To do this, you can simply use the fully specified <font color="#ff0000">named</font> (e.g., ..."
+ </p>
+ <p>
+ Should be ("named" changed to "name"):
+ </p>
+ 
+ <p>
+ 
+ </p>
+ "To do this, you can simply use the fully specified <font color="#0000ff">name</font> (e.g., ..."
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 152, Code example in middle</p>
+ </td>
+ <td>
+ <p>
+ Use more consistent indentation:
+ </p>
+ <p>
+ </p><pre> # setup.py
+ from distutils.core import setup
+ 
+ setup(name = "spam",
+             version = "1.0",
+             py_modules = ['libspam'],
+             packages = ['spampkg'],
+             scripts = ['runspam.py'],
+             )
+ </pre>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <pre> # setup.py
+ from distutils.core import setup
+ 
+ setup(name = "spam",
+       version = "1.0",
+       py_modules = ['libspam'],
+       packages = ['spampkg'],
+       scripts = ['runspam.py'],
+       )
+ </pre>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 160, Table 9.1
+ </p>
+ </td>
+ <td>
+ <p>
+ Change the description for f.fileno().</p>
+ 
+ <p>
+ "Returns an integer file descriptor."
+ </p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ "Returns the integer file descriptor or raises <tt>ValueError</tt> if closed."
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 163, ¶4 (midpage)
+ </p>
+ </td>
+ <td>
+ <p>
+ Add a clarifying note:
+ 
+ </p><p>
+ "To suppress or change the line ending, use the <tt>end=<em>ending</em></tt> keyword argument. For example:"
+ </p>
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ "To suppress or change the line ending, use the <tt>end=<em>ending</em></tt> keyword argument <font color="#0000ff">(note: if you specify something other
+ than a newline, you may have to flush <tt>sys.stdout</tt> to see the output).</font>"
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 164, code example at top
+ </p>
+ </td>
+ <td>
+ <p>
+ Messy formatting.
+ 
+ </p><pre> print form % { 'name' : 'Mr. Bush',
+                'item' : 'blender',
+                'amount' : 50.00
+                  }
+ </pre>
+ 
+ <p>
+ Should be (just move the brace)
+ </p>
+ 
+ 
+ <pre> print form % { 'name' : 'Mr. Bush',
+                'item' : 'blender',
+                'amount' : 50.00 }
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 165, code example midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Missing parenthesis.
+ 
+ </p><pre> ...
+         buffered_size = 0
+ out.write("".join(chunks)
+ </pre>
+ 
+ <p>
+ Should be (note extra ')' at end):
+ </p>
+ 
+ <pre> ...
+         buffered_size = 0
+ out.write("".join(chunks))
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 173, Table 10.1
+ </p>
+ </td>
+ <td>
+ <p>
+ The font on "-Q arg" is wrong. The '-Q' should be monospaced like other options and "arg" should be monospaced italics.  See the "-m module" entry for an example.
+ </p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 191, ¶4
+ </p>
+ </td>
+ <td>
+ <p>
+ "If you simply want to time a long-running Python program, the easiest way to do it is often to just run it <font color="#ff0000">until</font> the control of something..."
+ </p>
+ <p>
+ Should be ("until" replaced by "under")
+ </p>
+ 
+ <p>
+ "If you simply want to time a long-running Python program, the easiest way to do it is often to just run it <font color="#0000ff">under</font> the control of something..."
+ </p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 194, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Bad font for section headers.  The "Understand Algorithms" and "Use the Built-In Types" headers should be typeset in the same font as used for the "Understand Your Program" header above.
+ </p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 203, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Add Python 3 note to <tt>cmp()</tt> description.
+ </p>
+ 
+ <p>"... In certain circumstances, such comparisons may also raise an exception."
+ </p>
+ 
+ <p>Should be</p>
+ 
+ <p>"... In certain circumstances, such comparisons may also raise an exception. <font color="#0000ff">Python 3 only.</font>"
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 204, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Missing ] and extra space.
+ </p>
+ 
+ <p>"<tt>enumerate(<em>iter</em> [, <em>initial value</em>)</tt>"
+ </p>
+ 
+ <p>Should be (note extra ']' at end and added underscore in "initial_value")</p>
+ 
+ <p>"<tt>enumerate(<em>iter</em> [, <em>initial_value</em>])</tt>"
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 206, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Add clarifying note to <tt>input()</tt> description.
+ </p>
+ 
+ <p>"... line of input is read without any kind of evaluation or modification."
+ </p>
+ 
+ <p>Should be</p>
+ 
+ <p>"... line of input is read without any kind of evaluation or modification. <font color="#0000ff">The returned line does not include a trailing newline character.</font>"
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 210, top
+ </p>
+ </td>
+ <td>
+ <p>
+ Typo in description of <tt>slice()</tt>
+ </p>
+ 
+ <p>"Slice objects are also generated by the extended slice syntax <tt>a[i:<font color="#ff0000">i</font>:k]</tt>."
+ </p>
+ 
+ <p>Should be (change second "i" to "j")</p>
+ 
+ <p>"Slice objects are also generated by the extended slice syntax <tt>a[i:<font color="#0000ff">j</font>:k]</tt>."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 213, bottom
+ </p>
+ </td>
+ <td>
+ <p>
+ In description of <tt>FloatingPointError</tt>:
+ </p>
+ 
+ <p>"It should be noted that floating-point exception handling is a tricky problem and <font color="#ff0000">only</font> that this exception only gets raised if..."
+ </p>
+ 
+ <p>Should be (delete "only"):</p>
+ 
+ 
+ <p>"It should be noted that floating-point exception handling is a tricky problem and that this exception only gets raised if..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 226, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Clarify the use of byte strings (marshal module).  Changes in multiple places.
+ </p>
+ 
+ <ol>
+ <li><p>
+ Description of <tt>dumps()</tt>:</p>
+ 
+ <p>"Returns the string written by..."
+ </p>
+ 
+ <p>Should be (add "byte")</p>
+ 
+ 
+ <p>"Returns the <font color="#0000ff">byte</font> string written by..."
+ </p>
+ </li>
+ 
+ <li>
+ <p>
+ Heading for <tt>loads()</tt>:</p>
+ 
+ <p>
+ "<tt>loads(<em><font color="#ff0000">string</font></em>)</tt>" should be "<tt>loads(<em><font color="#0000ff">bytes</font></em>)</tt>".
+ </p>
+ </li>
+ 
+ <li>
+ <p>
+ Description of <tt>loads()</tt>:</p>
+ 
+ <p>
+ "Reads and returns the next value from the string <tt><em><font color="#ff0000">string</font></em></tt>." 
+ </p>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <p>
+ "Reads and returns the next value from the <font color="#0000ff">byte</font> string <tt><em><font color="#0000ff">bytes</font></em></tt>." 
+ </p>
+ </li>
+ </ol>
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 227, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Clarify the use of byte strings (pickle module).  Changes in multiple places.
+ </p>
+ 
+ <ol>
+ <li><p>
+ Description of <tt>dumps()</tt>:</p>
+ 
+ <p>"Same as <tt>dump()</tt>, but returns a string containing the pickled data."
+ </p>
+ 
+ <p>Should be (add "byte")</p>
+ 
+ <p>"Same as <tt>dump()</tt>, but returns a <font color="#0000ff">byte</font> string containing the pickled data."
+ </p>
+ 
+ <p></p>
+ </li>
+ 
+ <li>
+ <p>
+ Heading for <tt>loads()</tt>:</p>
+ 
+ <p>
+ "<tt>loads(<em><font color="#ff0000">string</font></em>)</tt>" should be "<tt>loads(<em><font color="#0000ff">bytes</font></em>)</tt>".
+ </p>
+ </li>
+ 
+ <li>
+ <p>
+ Description of <tt>loads()</tt>:</p>
+ 
+ <p>
+ "Same as <tt>load()</tt>, but reads the pickled representation of an object from a string.
+ </p>
+ 
+ <p>
+ Should be (add "byte"):
+ </p>
+ 
+ <p>
+ "Same as <tt>load()</tt>, but reads the pickled representation of an object from a <font color="#0000ff">byte</font> string.
+ </p>
+ </li>
+ </ol>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 233, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Typo and confusing typography in description of <tt>displayhook()</tt>.
+ </p>
+ 
+ <p>"... is printed to standard output and <tt><em>value</em></tt> is saved in the variable <tt>__builtin__._</tt>.<tt>displayhook</tt> can be redefined..."
+ </p>
+ 
+ <p>Should be (extra 's' on '__builtins__' and added text):</p>
+ 
+ <p>"... is printed to standard output and <tt><em>value</em></tt> is saved in the variable <tt>__builtin<font color="#0000ff">s</font>__._</tt>. <font color="#0000ff">The</font> <tt>displayhook</tt> 
+ <font color="#0000ff">function</font> can be redefined..."
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 237, note at bottom
+ </p>
+ </td>
+ <td>
+ <p>"The <tt>types</tt> module should not be used to refer the type of ..."
+ </p>
+ 
+ <p>Should be (added "to"):</p>
+ 
+ <p>"The <tt>types</tt> module should not be used to refer <font color="#0000ff">to</font> the type of ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 242, code example at top
+ </p>
+ </td>
+ <td>
+ <p>Use modern idioms in code:</p>
+ 
+ <pre> def foocache(x):
+ <font color="#ff0000">     if resultcache.has_key(x):</font>
+         ...
+ </pre>
+ 
+ <p>
+ Should be
+ </p>
+ 
+ <pre> def foocache(x):
+ <font color="#0000ff">     if x in resultcache:</font>
+         ...
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 259, Table 15.1
+ </p>
+ </td>
+ <td>
+ <p>Delete the entire first entry in the table.  This is the entry that looks like:
+ 
+ </p><pre> 'c'      8-bit character        char           1
+ </pre>
+ 
+ <p>
+ Note: This isn't supported in Python 3 and using it in Python 2 is probably ill-advised anyways.
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 260, code at bottom
+ </p>
+ </td>
+ <td>
+ <p>
+ Typo in code comment:</p>
+ 
+ <pre> b = array.array(a.typecode, (2*x for x in a))  # Create a new array from <font color="#ff0000">b</font>
+ </pre>
+ 
+ <p>
+ Should be (change "b" to "a")
+ </p>
+ 
+ <pre> b = array.array(a.typecode, (2*x for x in a))  # Create a new array from <font color="#0000ff">a</font>
+ </pre>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 283, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Use a better argument name in <tt>compile()</tt>
+ 
+ </p><p>
+ "<tt>compile(<em><font color="#ff0000">str</font></em> [, <em>flags</em>])</tt>"
+ </p>
+ 
+ <p>
+ Should be (change "str" to "pattern")
+ </p>
+ 
+ <p>
+ "<tt>compile(<em><font color="#0000ff">pattern</font></em> [, <em>flags</em>])</tt>"
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 288, last line
+ </p>
+ </td>
+ <td>
+ <p>
+ Bad quotation mark on <tt>'0.name'</tt>.   The ending quotation mark should be straight.
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 300, code at bottom
+ </p>
+ </td>
+ <td>
+ <p>
+ Bad indentation.
+ </p>
+ 
+ <pre>   symbol = "AIG"
+ account = 12345
+ </pre>
+ 
+ <p>
+ Should be
+ </p>
+ 
+ <pre> symbol = "AIG"
+ account = 12345
+ </pre>
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 300, 2nd to last paragraph
+ </p>
+ </td>
+ <td>
+ <p>
+ Add a clarifying sentence:
+ </p>
+ 
+ <p>
+ "Here the <tt>'?'</tt> placeholders are successively replaced with values from the tuple
+ <tt>(symbol, account)</tt>."
+ </p>
+ 
+ <p>
+ Should be
+ </p>
+ 
+ <p>
+ "Here the <tt>'?'</tt> placeholders are successively replaced with values from the tuple
+ <tt>(symbol, account)</tt>. <font color="#0000ff"><tt>'?'</tt> can only be used for values, not other parts of the query 
+ such as the command or table name.</font>"
+ </p>
+ 
+ <p>
+ Layout note: To add the above sentence, you might have to make space (suggest using extra space right above the "Forming Queries" heading).
+ </p>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 311, ¶3
+ </p>
+ </td>
+ <td>
+ <p>
+ In description of <tt>open()</tt>
+ </p>
+ 
+ <p>
+ "... has the same meaning as described in the <font color="#ff0000">chapter introduction</font> and is ..."
+ </p>
+ 
+ <p>
+ Should be
+ </p>
+ 
+ 
+ <p>
+ "... has the same meaning as described in the <font color="#0000ff">previous section</font> and is ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 311, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ In table describing operations on shelves:
+ </p>
+ 
+ <pre> <em>d</em>.has_key(<em>key</em>)
+ </pre>
+ 
+ <p>
+ Should be
+ </p>
+ 
+ <pre> <em>key</em> in <em>d</em>
+ </pre>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 313, bottom
+ </p>
+ </td>
+ <td>
+ <p>
+ In description of <tt>c.compress()</tt>:
+ </p>
+ 
+ <p>
+ "Feeds new string data to the compressor object, <tt><em>c</em></tt>.
+ Returns a string of compressed data if possible.  Because compression
+ involves chunks of data, the returned string may not include..."
+ </p>
+ 
+ <p>
+ Should be (add "byte")
+ </p>
+ 
+ <p>
+ "Feeds new <font color="#0000ff">byte</font> string data to the compressor object, <tt><em>c</em></tt>.
+ Returns a <font color="#0000ff">byte</font> string of compressed data if possible.  Because compression
+ involves chunks of data, the returned <font color="#0000ff">byte</font> string may not include..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 314, top
+ </p>
+ </td>
+ <td>
+ <p>
+ In description of <tt>c.flush()</tt>:
+ </p>
+ 
+ <p>
+ "Flushes the internal buffers and returns a string containing..."
+ </p>
+ 
+ <p>
+ Should be (add "byte")
+ </p>
+ 
+ <p>
+ "Flushes the internal buffers and returns a <font color="#0000ff">byte</font> string containing..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 314, top
+ </p>
+ </td>
+ <td>
+ <p>
+ In description of <tt>d.decompress()</tt>:
+ </p>
+ 
+ <p>
+ "Given a chunk of compressed data in the string <tt><em>data</em></tt>, this method returns
+ uncompressed data.  Because data is processed in chunks, the returned string may or may not ..."
+ </p>
+ 
+ <p>
+ Should be (add "byte")
+ </p>
+ 
+ <p>
+ "Given a chunk of compressed data in the <font color="#0000ff">byte</font> string <tt><em>data</em></tt>, this method returns
+ uncompressed data.  Because data is processed in chunks, the returned <font color="#0000ff">byte</font> string may or may not ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 314, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ In description of <tt>compress()</tt>:
+ </p>
+ 
+ <p>
+ "Returns a compressed version of the data supplied in the string <tt><em>data</em></tt>."
+ </p>
+ 
+ <p>
+ Should be (add "byte")
+ </p>
+ 
+ <p>
+ "Returns a compressed version of the data supplied in the <font color="#0000ff">byte</font> string <tt><em>data</em></tt>."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 314, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ In description of <tt>decompress()</tt>:
+ </p>
+ 
+ <p>
+ "Returns a string containing the decompressed data in the string <tt><em>data</em></tt>."
+ </p>
+ 
+ <p>
+ Should be (add "byte")
+ </p>
+ 
+ <p>
+ "Returns a <font color="#0000ff">byte</font> string containing the decompressed data in the <font color="#0000ff">byte</font> string <tt><em>data</em></tt>."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 316, last line of code
+ </p>
+ </td>
+ <td>
+ <p>
+ Last line of code is missing parentheses:
+ </p>
+ 
+ <pre> for pyfile in findall(".","*.py"):
+     print pyfile
+ </pre>
+ 
+ <p>
+ Should be (add parens):
+ </p>
+ 
+ 
+ <pre> for pyfile in findall(".","*.py"):
+     print(pyfile)
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 333, near bottom
+ </p>
+ </td>
+ <td>
+ <p>
+ In the description of <tt>c.items()</tt>.
+ </p>
+ 
+ <p>
+ There is a bad quotation mark style used in the sentence with "values that can be used in <tt>'%'</tt> expansions."   Use straight quotes.
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 349, code at top of page
+ </p>
+ </td>
+ <td>
+ <p>
+ Use modern exception handling style:</p>
+ 
+ <pre> ...
+ except IOError,e:
+     print "Unabled to acquire lock", e
+ </pre>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <pre> ...
+ except IOError as e:
+     print("Unabled to acquire lock %s" % e)
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 356, code midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Missing comma in arguments:
+ 
+ </p><pre> logging.basicConfig(
+    filename = "app.log",
+    format   = "%(levelname)-10s %(asctime)s %(message)s"
+    level    = logging.INFO
+ )
+ </pre>
+ 
+ <p>
+ Should be (note extra comma on third line):
+ </p>
+ 
+ <pre> logging.basicConfig(
+    filename = "app.log",
+    format   = "%(levelname)-10s %(asctime)s %(message)s",
+    level    = logging.INFO
+ )
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 398, midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Extra space in in description for <tt>split()</tt>:
+ 
+ </p><p>
+ "For example, <tt>'/home/user/foo'</tt> gets split into <tt>('/home/ user', 'foo')</tt>."
+ </p>
+ 
+ <p>
+ Should be (eliminate extra space in <tt>'/home/ user'</tt>)
+ </p>
+ 
+ <p>
+ "For example, <tt>'/home/user/foo'</tt> gets split into <tt>('/home/user', 'foo')</tt>."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 403, ¶3 midpage
+ </p>
+ </td>
+ <td>
+ <p>
+ Add an extra blank line before this sentence to better separate it from the description of
+ <tt>check_call()</tt> above it.
+ 
+ </p><p>
+ "The <tt>Popen</tt> object <tt><em>p</em></tt> returned by <tt>Popen()</tt> has a variety of..."
+ </p>
+ 
+ <p>
+ Layout note:  To do this, there is some extra blank space at the end of the table at the top of the page.   Perhaps
+ the description of <tt>call()</tt> can be moved up to make room.</p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 406, bottom half
+ </p>
+ </td>
+ <td>
+ 
+ <p>In description of <tt>sleep()</tt>:
+ </p>
+ 
+ <p>
+ "Puts the <font color="#ff0000">current process</font> to sleep for ..."
+ </p>
+ 
+ <p>
+ Should be (change "current process" to "calling thread"):</p>
+ 
+ <p>
+ "Puts the <font color="#0000ff">calling thread</font> to sleep for ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 408, bottom half
+ </p>
+ </td>
+ <td>
+ 
+ <p>In description of <tt>ConnectRegistry()</tt>:
+ </p>
+ 
+ <p>
+ "<tt><em>key</em> is a predefined handle such as <tt>HKEY_CURRENT_USER</tt> or <tt><font color="#ff0000">HKEY_ USERS</font></tt>."
+ </tt></p><tt>
+ 
+ <p>
+ Should be (removed extra space in <tt>HKEY_USERS</tt>):</p>
+ 
+ <p>
+ "<tt><em>key</em> is a predefined handle such as <tt>HKEY_CURRENT_USER</tt> or <tt><font color="#0000ff">HKEY_USERS</font></tt>."
+ </tt></p><tt>
+ 
+ </tt></tt></td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 414, ¶3
+ </p>
+ </td>
+ <td>
+ 
+ <p>"There's a joke attributed to Jason Whittington that goes <font color="#ff0000">as</font> like this:"
+ </p>
+ 
+ <p>
+ Should be (remove "as"):
+ 
+ </p><p>"There's a joke attributed to Jason Whittington that goes like this:"
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 415, ¶2
+ </p>
+ </td>
+ <td>
+ 
+ <p>
+ In the 2nd to last sentence of this paragraph.
+ </p>
+ 
+ <p>"... For example, a coroutine is a function that can receive and <font color="#ff0000">processe</font> messages that are sent to it."
+ </p>
+ 
+ <p>
+ Should be (fix spelling of "process"):
+ 
+ </p><p>"... For example, a coroutine is a function that can receive and <font color="#0000ff">process</font> messages that are sent to it."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 416, top
+ </p>
+ </td>
+ <td>
+ 
+ <p>
+ In description of <tt>Process()</tt>:
+ </p>
+ 
+ <p>"... The arguments in the constructor should always <font color="#ff0000">been</font> specified using ..."
+ </p>
+ 
+ <p>
+ Should be (change "been" to "be")
+ </p>
+ 
+ <p>"... The arguments in the constructor should always <font color="#0000ff">be</font> specified using ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 417, bottom
+ </p>
+ </td>
+ <td>
+ 
+ <p>"... to run the preceding examples in the command shell (<tt><font color="#ff0000">command.exe</font></tt>) instead of a ..."
+ </p>
+ 
+ <p>
+ Should be (change "command" to "cmd"):
+ </p>
+ 
+ <p>"... to run the preceding examples in the command shell (<tt><font color="#0000ff">cmd.exe</font></tt>) instead of a ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 426, ¶3 midpage
+ </p>
+ </td>
+ <td>
+ 
+ <p>"Normally, processes are <font color="#ff0000">completed</font> isolated from each other..."
+ </p>
+ 
+ <p>
+ Should be (change "completed" to "completely"):
+ </p>
+ 
+ <p>"Normally, processes are <font color="#0000ff">completely</font> isolated from each other..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 465, code example, midpage
+ </p>
+ </td>
+ <td>
+ 
+ <p>Change the implementation of the <tt>send()</tt> method so that it doesn't use the built-in "bytes" name.
+ </p>
+ 
+ <pre> ...
+ def send(self,<font color="#ff0000">bytes</font>):
+     while <font color="#ff0000">bytes</font>:
+         evt = yield WriteWait(self.sock)
+         nsent = self.sock.send(<font color="#ff0000">bytes</font>)
+         <font color="#ff0000">bytes</font> = <font color="#ff0000">bytes</font>[nsent:]
+ ...
+ </pre>
+ 
+ <p>
+ Should be (change "bytes" to "data"):
+ </p>
+ 
+ <pre> ...
+ def send(self,<font color="#0000ff">data</font>):
+     while <font color="#0000ff">data</font>:
+         evt = yield WriteWait(self.sock)
+         nsent = self.sock.send(<font color="#0000ff">data</font>)
+         <font color="#0000ff">data</font> = <font color="#0000ff">data</font>[nsent:]
+ ...
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 493, bottom
+ </p>
+ </td>
+ <td>
+ 
+ <p>In description of <tt>Server.verify_request()</tt>:
+ </p>
+ 
+ <p>"Redefine this method if you want to verify the connection before
+ any further processing.  This is what you define if you want to
+ implement a firewall or perform some other kind of a validation."
+ </p>
+ 
+ <p>
+ Should be (reworded for consistency):
+ </p>
+ 
+ <p>"Method that is called to verify the connection before any further
+ processing.   By redefining this method, you can implement a firewall or
+ perform other kinds of validation."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 493, bottom
+ </p>
+ </td>
+ <td>
+ 
+ <p>In second to last paragraph.
+ </p>
+ 
+ <p>"Finally, <font color="#ff0000">addition</font> server features are available..."</p>
+ <p></p>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <p>"Finally, <font color="#0000ff">additional</font> server features are available..."</p>
+ <p></p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 493, bottom
+ </p>
+ </td>
+ <td>
+ 
+ <p>In second to last paragraph.
+ </p>
+ 
+ <p>"Finally, <font color="#ff0000">addition</font> server features are available..."</p>
+ <p></p>
+ 
+ <p>
+ Should be:
+ </p>
+ 
+ <p>"Finally, <font color="#0000ff">additional</font> server features are available..."</p>
+ <p></p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 497, bottom
+ </p>
+ </td>
+ <td>
+ 
+ <p>In description of <tt>f.abort()</tt>:
+ </p>
+ 
+ <p>"Attempts to abort a file transfer that is in progress.  This may or may not work depending the remote server."
+ </p>
+ 
+ <p>
+ Should be (add missing "on"):
+ </p>
+ 
+ <p>"Attempts to abort a file transfer that is in progress.  This may or may not work depending <font color="#0000ff">on</font> the remote server."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 518, bottom
+ </p>
+ </td>
+ <td>
+ 
+ <p>In description of <tt>install_opener()</tt>:
+ </p>
+ 
+ <p>"Installs a different opener object for use as the global URL
+ opener used by <tt>urlopen()</tt>.  <tt><em>opener</em></tt> is
+ usually <font color="#ff0000">of</font> an opener object created by <tt>build_opener()</tt>.</p>
+ 
+ <p>
+ Should be (delete "of"):
+ </p>
+ 
+ <p>"Installs a different opener object for use as the global URL
+ opener used by <tt>urlopen()</tt>.  <tt><em>opener</em></tt> is
+ usually an opener object created by <tt>build_opener()</tt>.</p>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 532, last sentence
+ </p>
+ </td>
+ <td>
+ 
+ <p>"The <font color="#ff0000">topics</font> of web frameworks is far beyond the scope..."</p>
+ 
+ <p>
+ Should be (change "topics" to "topic"):
+ </p>
+ 
+ <p>"The <font color="#0000ff">topic</font> of web frameworks is far beyond the scope..."</p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 536, bottom
+ </p>
+ </td>
+ <td>
+ 
+ <p>In description of <tt>parse_header()</tt>:
+ </p>
+ 
+ <pre> ('text/html', {'a':'hello', 'b':'world'})
+ <font color="#ff0000">parse_multipart(fp, pdict)</font>
+ </pre>
+ 
+ <p>
+ Should be (delete the second line):
+ </p>
+ 
+ <pre> ('text/html', {'a':'hello', 'b':'world'})
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 538, code at top
+ </p>
+ </td>
+ <td>
+ 
+ <pre> # Print the output page
+ values = {
+    'name' : name,
+    'email' : email,
+ <font color="#ff0000">   'confirmation: ': confirmation,</font>
+    # Add other values here...
+ }
+ </pre>
+ 
+ <p>
+ Should be (delete the extra ' :' after the word 'confirmation' on the third line):
+ </p>
+ 
+ <pre> # Print the output page
+ values = {
+    'name' : name,
+    'email' : email,
+ <font color="#0000ff">   'confirmation' : confirmation,</font>
+    # Add other values here...
+ }
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 570, ¶3
+ </p>
+ </td>
+ <td>
+ 
+ <p>
+ In description of <tt>parse()</tt>:
+ </p>
+ 
+ <p>"<tt><em><font color="#ff0000">ile</font></em></tt> is a filename or already-open file object."
+ 
+ </p><p>
+ Should be:
+ </p>
+ 
+ <p>"<tt><em><font color="#0000ff">file</font></em></tt> is a filename or already-open file object."
+ 
+ </p></td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 588, last table
+ </p>
+ </td>
+ <td>
+ 
+ <p>
+ The table entry for <tt>sched</tt> should be deleted.  This module was already listed on page 587.
+ </p>
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 624, bottom third of page
+ </p>
+ </td>
+ <td>
+ 
+ <pre> &gt;&gt;&gt; <b>foo.__annotations__</b>
+ {'y': <font color="#ff0000">4</font>, 'x': <font color="#ff0000">3</font>, 'return': <font color="#ff0000">5</font>}
+ &gt;&gt;&gt;
+ </pre>
+ 
+ <p>
+ Should be (values are corrected):
+ </p>
+ 
+ <pre> &gt;&gt;&gt; <b>foo.__annotations__</b>
+ {'y': <font color="#0000ff">2</font>, 'x': <font color="#0000ff">1</font>, 'return': <font color="#0000ff">3</font>}
+ &gt;&gt;&gt;
+ </pre>
+ 
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ <p>pg 638, last paragraph
+ </p>
+ </td>
+ <td>
+ 
+ 
+ <p>"For Python 3, especially, it is critically to report bugs, ..."
+ </p>
+ 
+ <p>
+ Should be (added "important"):
+ </p>
+ 
+ <p>"For Python 3, especially, it is critically <font color="#0000ff">important</font> to report bugs, ..."
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 686, top of first column
+ </p>
+ </td>
+ <td>
+ 
+ <p>
+ Index entry for "numeric type <font color="#ff0000">coercision</font>" should be "numeric type <font color="#0000ff">coercion</font>"
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 695, bottom part of first column
+ </p>
+ </td>
+ <td>
+ 
+ <p>
+ Index entry for "readlines() method of <font color="#ff0000">StreamReder</font> objects" should be "readlines() method of <font color="#0000ff">StreamReader</font> objects"
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td>
+ <p>pg 712, middle of first column
+ </p>
+ </td>
+ <td>
+ 
+ <p>
+ Index entry for "Unicode strings, encoding and <font color="#ff0000">decoing</font>" should be "Unicode strings, encoding and <font color="#0000ff">decoding</font>"
+ </p>
+ 
+ </td>
+ </tr>
+ 
+ 
+ </tbody></table>
+
+	<hr>
+      </td>
+    </tr>
+  </tbody></table>
+</center>
+
+
+</font></body><div id="coFrameDiv" style="display: block; height: 31px;"><iframe id="coToolbarFrame" src="./Python Essential Reference, 4th Ed, Errata Page._files/placeholder.html" style="width: 100%; display: block; height: 31px;"></iframe></div></html>
